@@ -1,0 +1,34 @@
+/*
+Theme Name: Reviews Child
+Author: DJMiMi
+Theme URI: http://themeforest.net/user/DJMiMi
+Author URI: http://themeforest.net/user/DJMiMi
+License: GPL 2.0
+Template: reviews
+License URI: license.txt
+Description:  Product And Service Reviews WP Theme
+Version: 1.0
+Tags: light
+*/
+
+.content-inner h2 { /*h2 font size in a review post*/
+    font-size: 20px !important;
+}
+
+/*Review table of content widget*/
+.ez-toc-widget-container {
+    white-space: normal !important;
+}
+.ez-toc-widget-container ul.ez-toc-list li.active::before {
+    background-color: transparent !important;
+}
+.ez-toc-title-container {
+    display: initial !important;
+}
+/*End of Review's Table of content widget*/
+
+/*Author Info in review page*/
+.col-md-2.authorInfo {
+    padding: 6px 0 10px 0;
+}
+/*Author Info in review page*/
